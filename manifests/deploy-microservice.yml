@@ -8,7 +8,7 @@ metadata:
     name: magnus-solo-microservice
     namespace: microservices
 spec:
-    replicas: 2
+    replicas: 3
     selector:
         matchLabels:
             run: magnus-solo-microservice
